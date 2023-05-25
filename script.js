@@ -10,7 +10,7 @@ function miFunc(params) {
       const valor_password = password.value;
      
      if ((valor_user == "admin") && (valor_password == "admin")) {
-          window.location.href = './index.html';
+          window.location.href = './ingreso.html';
      }else{
           alert("el usuario o contraseña no son correctos");
           user.value = null;
